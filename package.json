@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint src --max-warnings=0",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./plubic"
   },
   "husky": {
     "hooks": {
