@@ -1,6 +1,6 @@
 import * as S from './styles';
 
-const Main = ({ title = 'React Avançado' }) => {
+const Main = ({ title = 'Next.js Boilerplate' }) => {
   return (
     <S.Wrapper>
       <h1>{title}</h1>
