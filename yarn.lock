@@ -2649,7 +2649,7 @@ css.escape@^1.5.0, css.escape@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/css.escape/-/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
 
-css@^2.0.0:
+css@^2.0.0, css@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/css/-/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
   dependencies:
@@ -4481,6 +4481,12 @@ jest-snapshot@^26.1.0:
     natural-compare "^1.4.0"
     pretty-format "^26.1.0"
     semver "^7.3.2"
+
+jest-styled-components@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.2.tgz#b7711871ea74a04491b12bad123fa35cc65a2a80"
+  dependencies:
+    css "^2.2.4"
 
 jest-util@^26.1.0:
   version "26.1.0"
