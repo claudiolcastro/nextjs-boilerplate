@@ -9,6 +9,7 @@
     "test": "jest",
     "lint": "eslint src --max-warnings=0",
     "storybook": "start-storybook -s ./public -p 6006",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
     "build-storybook": "build-storybook -s ./plubic"
   },
   "husky": {
@@ -54,6 +55,7 @@
     "jest": "^26.1.0",
     "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
+    "plop": "^2.7.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
